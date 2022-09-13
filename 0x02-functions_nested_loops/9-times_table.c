@@ -11,8 +11,8 @@ void times_table(void)
 	for (r = 0; r <= 9; r++)
 	{
 		_putchar('0');
-		_putchar('44');
-		_putchar('32');
+		_putchar(44);
+		_putchar(32);
 		for (c = 1; c <= 9; c++)
 		{
 			d = (r * c);
@@ -22,13 +22,13 @@ void times_table(void)
 		}
 		else
 		{
-			_putchar('32');
+			_putchar(32);
 		}
 			_putchar((d % 10) + '0');
 		if (c < 9)
 		{
-			_putchar('44');
-			_putchar('32');
+			_putchar(44);
+			_putchar(32);
 		}
 	}
 		_putchar('\n');
