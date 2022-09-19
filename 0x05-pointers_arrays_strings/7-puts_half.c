@@ -4,23 +4,24 @@
 /**
  * puts_half - Prints out the first half of a string
  * @str: input string to print
- * Return: 0
+ * Return: half of input
  */
 
 void puts_half(char *str)
 {
-	int i, j;
+	int i, n, len;
 
-	while (str[i] != '\0')
-		i++;
-	if (i % 2 == 0)
-		j = i / 2;
-	else
-		j = (i + 1) / 2;
-	while (j < i)
-	{
-		putchar(str[j]);
-		j++;
-	}
+	len = 0;
+
+	for (i = 0; str[i] != '\0'; i++)
+		len++;
+
+	n = (len / 2);
+
+	if ((len % 2) == 1)
+		n = ((len + 1) / 2);
+
+	for (i = n; str[i] != '\0'; i++)
+		putchar(str[i]);
 	putchar('\n');
 }
