@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_array - Print an array up to n.
+ * print_array - Print an array up to n
  * @a: array name
- * @n: the number of elements of the array 
+ * @n: the number of elements of the array
  * Return: a and n inputs
  */
 
