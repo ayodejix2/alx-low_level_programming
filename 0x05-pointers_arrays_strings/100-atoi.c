@@ -7,13 +7,14 @@
  */
 
 int _atoi(char *s)
+
 {
-	int sign = 1
+	int sign = 1;
 	unsigned int number;
 
 	sign = 1;
-	unsigned int total = 0
-	char null_flag = 0
+	unsigned int total = 0;
+	char null_flag = 0;
 
 	while (*s)
 	{
