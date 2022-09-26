@@ -23,7 +23,7 @@ int _strncmp(char *s1, char *s2, unsigned int b)
  * _strstr - locates a substring
  * @haystack: the longer string to search
  * @needle: substring to search
- * Return: pointer to string with result of search
+ * Return: a pointer to the beginning of the located substring, or NULL if the substring is not found
  */
 
 char *_strstr(char *haystack, char *needle)
