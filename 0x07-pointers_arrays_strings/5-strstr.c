@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
  * _strncmp - compares two strings within b bytes
@@ -6,6 +6,7 @@
  * @s2: string to check from
  * @b: number of bytes to check
  * Return: 0 if strings are the same
+ * 
  */
 
 int _strncmp(char *s1, char *s2, unsigned int b)
@@ -24,7 +25,7 @@ int _strncmp(char *s1, char *s2, unsigned int b)
  * @haystack: the longer string to search
  * @needle: substring to search
  * Return: a pointer to the beginning of the located substring
- * NULL if the substring is not found
+ * NULL - if the substring is not found
  */
 
 char *_strstr(char *haystack, char *needle)
