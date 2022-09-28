@@ -11,7 +11,7 @@ int prime_check(int q, int r)
 {
 	if (r < 2 || r % q == 0)
 		return (0);
-	else if (f > r / 2)
+	else if (q > r / 2)
 		return (1);
 	else
 		return (prime_check(q + 1, r));
