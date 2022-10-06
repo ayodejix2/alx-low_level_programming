@@ -6,7 +6,7 @@
  * @s1: source string
  * @s2: string to truncate up to n bytes
  * @n: number of bytes to truncate by
- * Return: pointer to new buffer
+ * Return: pointer to the concatenated space in memory, NULL if fails
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
