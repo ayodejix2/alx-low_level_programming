@@ -4,9 +4,9 @@
 /**
  * main - entry point
  * @argc: the number of parameters.
- * @argv: the parameeters in the case the number ob bytes.
+ * @argv: the parameeters in the case the number ob bytes
  * Description: this program prints opcodes in hexa
- * Return: 0 
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
