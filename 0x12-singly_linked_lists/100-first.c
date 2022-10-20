@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * print_before - prints a string before main function is executed
+ * b - prints a string before main function is executed
  * Return: 0
  */
 void b(void) __attribute__ ((constructor));
