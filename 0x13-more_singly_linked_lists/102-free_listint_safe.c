@@ -17,6 +17,7 @@ size_t free_listint_safe(listint_t **h)
 	while (node)
 	{
 		next = node->next;
+
 		free(node);
 		len++;
 
@@ -25,8 +26,11 @@ size_t free_listint_safe(listint_t **h)
 			*h = NULL;
 			break;
 		}
+
 		node = next;
 	}
+
 	*h = NULL;
+
 	return (len);
 }
