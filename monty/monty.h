@@ -55,11 +55,11 @@ void pstr(stack_t **h, unsigned int l);
 void pchar(stack_t **h, unsigned int l);
 void pint(stack_t **h, unsigned int l);
 
-/*in push_and_pop*/
+/*in push_pop*/
 void pop(stack_t **h, unsigned int l);
 void push (stack_t **h, char *line, unsigned int l);
 
-/*in move_elements_functions*/
+/*in swap_elements_functions*/
 void swap(stack_t **h, unsigned int l);
 void rotl(stack_t **h, unsigned int l);
 void rotr(stack_t **h, unsigned int l);
@@ -72,12 +72,12 @@ void _div(stack_t **h, unsigned int l);
 void _mul(stack_t **h, unsigned int l);
 void _mod(stack_t **h, unsigned int l);
 
-/*in nopandqueue*/
+/*in nop_queue*/
 void stack(stack_t **h, unsigned int l);
 void queue(stack_t **h, unsigned int l);
 void nop(stack_t **h, unsigned int l);
 
-/*in helpers*/
+/*in helps*/
 char *skip_spaces(char *s);
 char *reach_number(char *s);
 int _strcmp(char *s1, char *s2);
